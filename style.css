@@ -1,0 +1,204 @@
+body, button{
+  font-family: "Arial";
+  font-size: 14px;
+}
+
+div{
+  display:block;
+}
+span{
+  margin:0 5px 0 5px;
+  color: #000080;
+}
+li{
+  display:inline;
+}
+/* top Navbar Layer*/
+.top_nav{
+  height:90px;
+  weight:100%;
+  position: relative;
+  margin-top: 5px;
+/*  background-color: #000000;*/
+}
+.horizontal{
+  font-family: "Arial";
+  font-size: 14px;
+}
+.signin{
+  position:absolute;
+  right:10px;
+}
+/*button style*/
+.btn-primary {
+  color: #fff;
+  background-color: #1a73e8;
+  border-color: #1a73e8;
+  letter-spacing: .25px;
+  text-align: center;
+ vertical-align: middle;
+ line-height: 16px;
+ padding: 9px 23px;
+ margin-right: 8px;
+ margin-left: 8px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background: #4285f4;
+  background-color: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  /*border-color: #4285f4;*/
+  border-color: transparent;
+  border: 1px solid;
+}
+.g_apps{
+  position:absolute;
+  right:140px;
+  margin:5px 0px 5px 0px;
+}
+.img{
+  position:absolute;
+  right:180px;
+  margin:5px 0px 5px 0px;
+}
+.gmail{
+  position:absolute;
+  right:240px;
+  margin:5px 0px 5px 0px;
+}
+
+.google_logo{
+  padding: 0px 100px 20px 100px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:0px;
+    margin-left:32%;
+}
+.top_container{
+padding-top:0px;
+
+}
+.above_search{
+  height:60px;
+  weight:100%;
+  width: 100%;
+}
+.relative{
+
+  display: block;
+  position: relative;
+}
+.search_bar{
+  height:50px;
+  weight:100%;
+  background-color: white;
+  position: absolute;
+  margin: 50%;
+  border-width: 0px;
+}
+.search-bar input{
+  width: 40%;
+  border-radius: 50rem;
+  border-color:gray;
+  border-width: thin;
+  padding:0px 10px;
+}
+.search_bar input:hover{
+
+}
+.below_search{
+  margin-top: 20px;
+  text-align: center;
+
+}
+.gs, .FL{
+  background: #f2f2f2;
+  border: 0px;
+  color: #000000;
+  border-color: transparent;
+  padding:6px 14px;
+  margin:5px 3px 5px 3px;
+  letter-spacing: .25px;
+  border-radius: 2%;
+
+}
+.middle_container{
+  margin-top: 20px;
+  margin-bottom: 160px;
+}
+.lang{
+  text-align: center;
+}
+
+
+.bottom_container{
+
+  height: 80px;
+  weight:100%;
+  color:#808080;
+  background-color:#f2f2f2;
+  padding:0 0 7% 0;
+  margin-bottom: 0px;
+}
+.bottom_top{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.bottom_bottom{
+  width: 50%;
+  position: relative;
+}
+.about{
+  position:absolute;
+  left:20px;
+
+}
+.ad{
+  position:absolute;
+  left:70px;
+}
+.bus{
+  position:absolute;
+  left:160px;
+}
+.hsw{
+  position:absolute;
+  left:240px;
+}
+.pri{
+  position:absolute;
+  left:1120px;
+}
+.terms{
+  position:absolute;
+  left:1185px;
+}
+.set{
+  position:absolute;
+  left:1250px;
+}
+.bg-gray-300{
+  background-color: white;
+}
+/*
+.micro_phone{
+  padding-left:0px;
+}
+.form-control{
+  padding:0px 75px;
+}
+.search{
+  padding-right: 0px;
+
+}
+.input-group-prepend{
+  background-color: white;
+}*/
+.input-group-append{
+  background-color: white;
+
+  border-top-right-radius: 50rem;
+border-bottom-right-radius: 50rem;
+}
